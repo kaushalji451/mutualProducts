@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import etfs from "../mutrualSymbolsArray/etfs";
 import Allitems from "../components/Allitems";
+
 const Etfs = () => {
   const [data, setdata] = useState({});
 
@@ -11,8 +12,9 @@ const Etfs = () => {
           etfs.map(async (etf) => {
             try {
               const response = await fetch(
-                `http://localhost:8080/mutual_details/?name=${etf.name}`
+                `${import.meta.env.VITE_API_BASE_URL}/mutual_details/?name=${etf.name}`
               );
+              
               if (!response.ok) throw new Error(`Failed to fetch ${etf.name}`);
               const json = await response.json();
               return { name: etf.name, data: json };

@@ -12,7 +12,7 @@ const stocks = () => {
            topStocks.map(async (stock) => {
              try {
                const response = await fetch(
-                 `http://localhost:8080/mutual_details?name=${stock.name}`
+                 `${import.meta.env.VITE_API_BASE_URL}/mutual_details?name=${stock.name}`
                );
                if (!response.ok) throw new Error(`Failed to fetch ${stock.name}`);
                const json = await response.json();
