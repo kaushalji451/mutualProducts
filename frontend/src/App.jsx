@@ -3,7 +3,7 @@ import { Route,Routes } from 'react-router-dom'
 import MutualProduct from './pages/MutualProduct'
 import Etfs from './pages/etfs'
 import Riets from './pages/Riets'
-import Stocks from './pages/stocks'
+import Stocks from './pages/Stocks'
 const App = () => {
   return (
     <>

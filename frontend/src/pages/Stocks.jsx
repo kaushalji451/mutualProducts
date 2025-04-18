@@ -2,7 +2,8 @@ import React from 'react'
 import { useState ,useEffect} from 'react';
 import topStocks from '../mutrualSymbolsArray/stocks';
 import Allitems from '../components/Allitems';
-const stocks = () => {
+
+const Stocks = () => {
   const [data, setdata] = useState({});
  
    useEffect(() => {
@@ -56,4 +57,4 @@ const stocks = () => {
    );
 }
 
-export default stocks
+export default Stocks
