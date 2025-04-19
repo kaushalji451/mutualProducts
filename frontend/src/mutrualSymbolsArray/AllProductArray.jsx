@@ -1,0 +1,33 @@
+const allProducts = [
+  { id: 1, name: "Nippon India ETF Gold" },
+  { id: 2, name: "Nippon India Silver ETF" },
+  { id: 3, name: "Nippon India ETF PSU Bank BeES" },
+  { id: 4, name: "Mirae Asset NYSE FANG+ ETF" },
+  {
+    id: 5,
+    name: "ICICI Prudential Nifty Midcap 150 ETF",
+  },
+  { id: 6, name: "Nippon India ETF Nifty BeES" },
+  { id: 7, name: "Nippon India ETF Bank BeES" },
+  { id: 8, name: "Kotak Banking ETF" },
+  { id: 9, name: "NBCC (India) Ltd" },
+  { id: 10, name: "DLF Ltd (REIT-like exposure)" },
+  { id: 11, name: "The Phoenix Mills Ltd" },
+  { id: 12, name: "Brigade Enterprises Ltd" },
+  { id: 13, name: "Oberoi Realty Ltd" },
+  { id: 14, name: "Godrej Properties Ltd" },
+  { id: 15, name: "Sunteck Realty Ltd" },
+  { id: 16, name: "Maharashtra Seamless Ltd (Infra Exposure)" },
+  { id: 17, name: "Reliance Industries Ltd" },
+  { id: 18, name: "Tata Consultancy Services Ltd" },
+  { id: 19, name: "Infosys Ltd" },
+  { id: 20, name: "HDFC Bank Ltd" },
+  { id: 21, name: "ICICI Bank Ltd" },
+  { id: 22, name: "ITC Ltd" },
+  { id: 23, name: "Larsen & Toubro Ltd" },
+  { id: 24, name: "Bharti Airtel Ltd" },
+  { id: 25, name: "Hindustan Unilever Ltd" },
+  { id: 26, name: "State Bank of India" },
+];
+
+export default allProducts
